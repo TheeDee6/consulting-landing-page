@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgba(255, 217, 0, 0.486);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav-items{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    /* color: black; */
+    /* text-decoration: none; */
+    list-style: none;
+    /* text-decoration-color: black; */
+}
+#nav-items a{
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-items-button {
+    /* border-radius: 80%;
+    background-color: antiquewhite;
+    border: 20px black;
+    text-decoration: none;
+    list-style: none;
+    display: flex; */
+}
+
+.dee-name a{
+    color: black;
+    font-size: 30px;
+    font: bolder;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    list-style-type: none;
+    font-style: oblique;
+
+}
+header{
+    background-image: url(../assets/images/consult\ image\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-container{
+    /* flex: content; */
+    display: grid;
+/* grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px; */
+}
+
+.hero-section-container h4{
+    font-size: 20px;
+    font: bold;
+}
+
+
+
