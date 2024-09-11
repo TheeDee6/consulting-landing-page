@@ -30,12 +30,22 @@ nav{
 }
 
 .nav-items-button {
-    /* border-radius: 80%;
+    border-radius: 12px;
     background-color: antiquewhite;
-    border: 20px black;
+    border: 50px black;
+    /* text-decoration: none; */
+    /* list-style: none; */
+    display: flex;
+    width: 200px;
+    height: 25px;
+}
+
+.nav-items-button a{
     text-decoration: none;
-    list-style: none;
-    display: flex; */
+    list-style-type: none;
+    color: black;
+    align-items: center;
+    display: flex;
 }
 
 .dee-name a{
@@ -44,10 +54,9 @@ nav{
     font: bolder;
     text-decoration: none;
     display: flex;
-    text-align: left;
+    text-align: right;
     list-style-type: none;
     font-style: oblique;
-
 }
 header{
     background-image: url(../assets/images/consult\ image\ 3.png);
@@ -66,9 +75,16 @@ grid-column-gap: 0px;
 grid-row-gap: 0px; */
 }
 
+.hero-section{
+align-content: center;
+display: flex;
+}
+
 .hero-section-container h4{
     font-size: 20px;
     font: bold;
+    margin-top: 30%;
+    margin-left: 5%;
 }
 
 
